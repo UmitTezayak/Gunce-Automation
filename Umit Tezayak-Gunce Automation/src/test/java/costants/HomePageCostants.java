@@ -1,0 +1,61 @@
+package costants;
+
+import org.openqa.selenium.By;
+
+public class HomePageCostants {
+    public static final By loginButton = By.xpath("//button[@class='btn btn-blue']");
+    public static final By clickToCreateAccount = By.xpath("//p[@class='registerUser']/a[text()='tıklayınız.']");
+    public static final By emailHomePageText = By.xpath("//input[@id='Email']");
+    public static final String emailHomePage = "umit.tezayak@gmail.com";
+    public static final By passwordText = By.xpath("//input[@id='password-field']");
+    public static final String password = "Umit1996";
+    public static final By loginButtonHomePage = By.xpath("//button[@class='btn btn-blue']");
+    public static final By teamMates = By.xpath("//span[@class='site-menu-title'][text()='Ekip Arkadaşlarımız ']");
+    public static final By addMateButton = By.xpath("//a[@class='btn-add']");
+    public static final By teamMatesNameText = By.xpath("//input[@id='EmployeeInsertName']");
+    public static final String teamMatesName = "Mehmet";
+    public static final By teamMatesSurnameText = By.xpath("//input[@id='EmployeeInsertSurname']");
+    public static final String teamMatesSurname = "Erkan";
+    public static final By teamMatesNickname = By.xpath("//input[@id='NickName']");
+    public static final By teamMatesTitle = By.xpath("//select[@id='ParameterTitleId']");
+    public static final By teamMatesCompany = By.xpath("//select[@id='ParameterGroupCompanyId']");
+    public static final By teamMatesIdentityNumText = By.xpath("//input[@id='IdentityNumber']");
+    public static final String teamMatesIdentityNum = "84906541312";
+    public static final By teamMatesGunceUser = By.xpath("//label[@for='IsSystemUserNo']");
+    public static final By teamMatesSaveAndClose = By.xpath("//button[@id='savecloseBtn']");
+    public static final By ourOffice = By.xpath("//a[@id='buromuz']");
+    public static final By birthdayNumText = By.xpath("//input[@id='BirthDate']");
+    public static final String birthdayNum = "10.01.1996";
+    public static final By birthdayNumPick = By.xpath("//tbody/tr[3]/td[3][text()='10']");
+    public static final By employeeType = By.xpath("//select[@id='PrmEmployeeRecordTypeId']");
+    public static final By personally = By.xpath("//a[@class='nav-link text-uppercase']/span[text()='KİŞİSEL']");
+    public static final By searchTeamMateText = By.xpath("//tr[@class='dx-row dx-datagrid-filter-row']/td[1]/div/div[2]/div/div/div/input");
+    public static final String searchTeamMate = "Mehmet Erkan";
+    public static final By expensesMenu = By.xpath("//a[@id='masraflar']");
+    public static final By addExpensesButton = By.xpath("//a[@class='btn-add ']");
+    public static final By addExpensesChoice = By.xpath("//a[@class='dropdown-item'][text()='Masraf']");
+    public static final By fileArea = By.xpath("//select[@id='FileCaseId']");
+    public static final By fileAreaText = By.xpath("//span/input[@class='select2-search__field']");
+    public static final String fileAreaTextEntry = "003";
+    public static final By fileAreaTextEntryChoice = By.xpath("//li[@class='select2-results__option select2-results__option--highlighted']");
+    public static final By expenseCategory1 = By.xpath("//select[@id='PrmExpenseCategoryId']");
+    public static final By expenseSubCategory1 = By.xpath("//select[@id='PrmExpenseSubCategoryId']");
+    public static final By nonFile = By.xpath("//label[@for='IsDocumentedNo']");
+    public static final By whyNotFileText = By.xpath("//input[@id='ReasonForNoDocument']");
+    public static final String whyNotFile = "Bilmem";
+    public static final By whyNotFileDateText = By.xpath("//input[@id='ExpenseDate']");
+    public static final String whyNotFileDate = "10.09.2023";
+    public static final By whyNotFileDatePick = By.xpath("//tbody/tr[4]/td[3][text()='20']");
+    public static final By explanationTextArea = By.xpath("//textarea[@id='Explanation']");
+    public static final String explanation1 = "Bilmem";
+    public static final By totalAmountText = By.xpath("//input[@id='TotalAmount']");
+    public static final String totalAmount = "1200";
+    public static final By clientAmountText = By.xpath("//input[@id='ClientAmount']");
+    public static final String clientAmount = "1200";
+    public static final By vatTotalAmountText = By.xpath("//input[@id='VATAmount']");
+    public static final String vatTotalAmount = "1200";
+    public static final By amortisationYearText = By.xpath("//input[@id='AmortisationYear']");
+    public static final String amortisationYear = "1";
+    public static final By saveExpenseButton = By.xpath("//button[@data-original-title=' Kaydet, Gönder Aynı Dosyaya Yeni Masraf']");
+
+}
